@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+
+    <title>Главная</title>
+</head>
+
+<body>
+
+<!--<header class="header">-->
+<!--    <div class="container ">-->
+<!--        <div class="row d-flex justify-content-end justify-content-md-center">-->
+<!--            <nav class="header__navbar navbar navbar-expand-md navbar-light">-->
+<!--                <a class="navbar-brand" href="" id="navBrand">Denis<br>Novik</a>-->
+<!--                <button class="navbar-toggler border border-0 icon-menu" type="button" id="navButton">-->
+<!--                    <span></span>-->
+<!--                    <span></span>-->
+<!--                    <span></span>-->
+<!--                </button>-->
+<!--                <div class="header__navigation-list me-auto d-flex flex-column align-items-start justify-content-center"-->
+<!--                     id="toggleMobileMenu">-->
+<!--                    <ul class="d-flex flex-column align-items-start justify-content-center me-auto row-cols-md-5">-->
+<!--                        <a href=""-->
+<!--                           class="header__navigation-link header__navigation-link_active">Home</a>-->
+<!--                        <a href="" class="header__navigation-link text-center">About me</a>-->
+<!--                        <a href="" class="header__navigation-link text-center">Skills</a>-->
+<!--                        <a href="" class="header__navigation-link text-center">Portfolio</a>-->
+<!--                        <a href="" class="header__navigation-link text-end">Contacts</a>-->
+<!--                    </ul>-->
+<!--                    <p class="align-self-end text-end header__language header__language_first">RU</p>-->
+<!--                    <p class="align-self-end header__language_second header__language header__language_active">ENG</p>-->
+<!--                    <div class="header__overlay" id="navOverlay"></div>-->
+<!--                </div>-->
+<!--            </nav>-->
+<!--            <div class="header__subtitle">-->
+<!--                <h2 class="text-start">UX | UI designer<br>24 years old, Minsk </h2>-->
+<!--            </div>-->
+<!--            &lt;!&ndash;            <div class="header__language-md">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <p class="header__language-md_first header__language-md_active">ENG</p>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <p class="header__language-md_second">RU</p>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--            <img class="header__image-sm" src="public/images/main-sm.png" alt="background.jpg">-->
+<!--            <img class="header__image-lg" src="public/images/main-md.png" alt="background.jpg">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
+
+<header class="header  position-relative">
+    <div>
+        <nav class="header__navbar navbar navbar-expand-xl navbar-light">
+            <button
+                    class="navbar-toggler border border-0 icon-menu"
+                    type="button"
+                    id="navButton"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <div class="header__navigation " id="toggleMobileMenu">
+            <div class="header__navigation-inner d-flex flex-column align-items-start position-relative h-100 container">
+                <div class="header__overlay" id="navOverlay"></div>
+                <ul class="container d-flex flex-column align-items-start position-relative row-cols-md-5">
+                    <li class="header__link-wrapper text-start">
+                        <a href="" class="header__navigation-link text-center header__navigation-link_active ">Home</a>
+                    </li>
+                    <li class="header__link-wrapper text-center">
+                        <a href="" class="header__navigation-link text-center">About me</a>
+                    </li>
+                    <li class="header__link-wrapper text-center">
+                        <a href="" class="header__navigation-link text-center">Skills</a>
+                    </li>
+                    <li class="header__link-wrapper text-center">
+                        <a href="" class="header__navigation-link text-center">Portfolio</a>
+                    </li>
+                    <li class="header__link-wrapper text-end">
+                        <a href="" class="header__navigation-link text-center">Contacts</a>
+                    </li>
+                </ul>
+                <div class="header__language d-flex">
+                    <p>RU</p>
+                    <p class="header__language_active">ENG</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container">
+        <div class="main__inner row">
+            <h1 class="main__title col-md-4">
+                Denis<br>Novik
+            </h1>
+            <h2 class="main__subtitle col-md-4">
+                UX | UI designer<br>
+                24 years old, Minsk
+            </h2>
+            <div class="main__language col-md-4">
+                <div>
+                    <p class="main__language_active">ENG</p>
+                </div>
+                <div class="">
+                    <p>RU</p>
+                </div>
+            </div>
+        </div>
+        <div class="main__image-sm d-flex justify-content-center">
+            <img src="public/images/main-sm.png" alt="" class="img-fluid">
+        </div>
+        <div class="main__image-md  d-flex justify-content-center">
+            <img src="public/images/main-md.png" alt="" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+        <h2 class="about__title">About me</h2>
+        <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk.
+            I'm interested in design and everything connected with it.
+        </p>
+        <p class="about__text">
+            I'm studying at courses "Web and mobile design
+            interfaces" in IT-Academy.
+        </p>
+        <p class="about__text">
+            Ready to implement excellent projects
+            with wonderful people.
+        </p>
+    </div>
+</section>
+
+<section class="programs">
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+        <h2 class="programs__title">Skills</h2>
+        <h3 class="programs__subtitle">I work in such programs as</h3>
+        <div class="programs__items row d-flex justify-content-center w-100">
+            <div class="programs__item col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+                <img src="public/images/skills/Photoshop.png" alt="" class="programs__image">
+                <p class="text-center">Adobe<br>Photoshop</p>
+                <img src="public/images/skills/4-star.png" alt="" class="programs__stars">
+            </div>
+            <div class="programs__item col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+                <img src="public/images/skills/Illustrator.png" alt="" class="programs__image">
+                <p class="text-center">Adobe<br>Illustrator</p>
+                <img src="public/images/skills/3-star.png" alt="" class="programs__stars">
+            </div>
+            <div class="programs__item col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center programs__item-bottom">
+                <img src="public/images/skills/After Effects.png" alt="" class="programs__image">
+                <p class="text-center">Adobe<br>After Effects</p>
+                <img src="public/images/skills/4-star.png" alt="" class="programs__stars">
+            </div>
+            <div class="programs__item col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center programs__item-bottom">
+                <img src="public/images/skills/Figma.png" alt="" class="programs__image">
+                <p class="text-center">Figma<br><br></p>
+                <img src="public/images/skills/4-star.png" alt="" class="programs__stars">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio">
+    <div class="container d-flex flex-column align-items-center">
+        <h2 class="portfolio__title">
+            Portfolio
+        </h2>
+        <img src="public/images/Portfolio/img-1.png" alt="" class="portfolio__image img-fluid">
+        <a href="" class="portfolio__link">Online fashion store - Homepage</a>
+        <img src="public/images/Portfolio/img-2.png" alt="" class="portfolio__image img-fluid">
+        <a href="" class="portfolio__link">Reebok Store - Concept</a>
+        <img src="public/images/Portfolio/img-3.png" alt="" class="portfolio__image img-fluid">
+        <a href="" class="portfolio__link">Braun Landing Page - Concept</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container d-flex flex-column align-items-center w-100">
+        <h2 class="footer__title text-center">
+            Contacts
+        </h2>
+        <h3 class="footer__subtitle text-center">
+            Want to know more or just chat?
+            You are welcome!
+        </h3>
+        <button class="footer__button btn text-center">
+            Send message
+        </button>
+        <div class="row footer__icons w-100 d-flex justify-content-center">
+            <div class="col-3 footer__icon text-center">
+                <img src="public/images/footer/img-1.png" alt="">
+            </div>
+            <div class="col-3 footer__icon text-center">
+                <img src="public/images/footer/img-2.png" alt="">
+            </div>
+            <div class="col-3 footer__icon text-center">
+                <img src="public/images/footer/img-3.png" alt="">
+            </div>
+            <div class="col-3 footer__icon text-center">
+                <img src="public/images/footer/img-4.png" alt="">
+            </div>
+        </div>
+        <div class="footer__bottom-text text-center">
+            Like me on<br>
+            LinkedIn, Instagram, Behance, Dribble
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<script src="public/javascripts/script-min.js"></script>
+</body>
+
+</html>

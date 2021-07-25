@@ -1,0 +1,26 @@
+body{
+  color: red;
+}
+.case {
+  overflow: hidden;
+  width: 300px;
+  margin: 1 auto;
+  @media (min-width: 500px) {
+    width: 455px;
+  }
+  @media (min-width: 720px) {
+    width: 550px;
+  }
+  @media (min-width: 1270px) {
+    width: 720px;
+  }
+  @media (min-width: 1900px) {
+    width: 1120px;
+  }
+  @media (min-width: 2540px) {
+    width: 1540px;
+  }
+  @media (min-width: 3820px) {
+    width: 2440px;
+  }
+}
